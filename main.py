@@ -26,8 +26,8 @@ def encrypt_message(public_key, message):
     ciphertext = public_key.encrypt(
         message,
         padding.OAEP(
-            mgf=padding.MGF1(algorithm=hashes.SHA256()),
-            algorithm=hashes.SHA256(),
+            mgf=padding.MGF1(algorithm=hashes.SHA1()),
+            algorithm=hashes.SHA1(),
             label=None
         )
     )
@@ -38,8 +38,8 @@ def decrypt_message(private_key, ciphertext):
     decrypted_message = private_key.decrypt(
         ciphertext,
         padding.OAEP(
-            mgf=padding.MGF1(algorithm=hashes.SHA256()),
-            algorithm=hashes.SHA256(),
+            mgf=padding.MGF1(algorithm=hashes.SHA1()),
+            algorithm=hashes.SHA1(),
             label=None
         )
     )

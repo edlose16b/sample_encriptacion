@@ -38,12 +38,14 @@ try:
         label=None
     ))
     print(f"Mensaje desencriptado con OAEP: {decrypted_message.decode()}")
-except ValueError:
+except ValueError as e:
     print("Desencriptación con OAEP fallida.")
+    print(e)
 
 # Intentar desencriptar con PKCS1v15
 try:
     decrypted_message = decrypt_message(private_key, encrypted_message, padding.PKCS1v15())
     print(f"Mensaje desencriptado con PKCS1v15: {decrypted_message.decode()}")
-except ValueError:
+except ValueError as e:
     print("Desencriptación con PKCS1v15 fallida.")
+    print(e)
