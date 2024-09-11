@@ -77,10 +77,9 @@ En este caso solo tengo el texto a desencriptar e intento con los 2 padding y no
 
 
 
-
-
 Eso usando la llave privada  `private_key = load_private_key("new_private_key.pem")` que está en el formato `PKCS#1`.
 
 Si uso la llave privada `new_private_key_pkcs8` que está en formato `PKCS#8` tampoco funciona.
 
-<img width="573" alt="image" src="https://gist.github.com/user-attachments/assets/ca185a06-09b1-4740-9691-cd2e2049b1d9">
+![image](https://github.com/user-attachments/assets/7fb98ae7-bdc0-4114-91ca-86235bc56faf)
+
