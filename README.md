@@ -53,24 +53,28 @@ Por eso seria bueno que también de su lado confirmen como es que andan encripta
 
 #### Respuesta:
 
-<img width="734" alt="image" src="https://gist.github.com/user-attachments/assets/509ce176-43be-43af-847c-68c6d8fae56c">
+![image](https://github.com/user-attachments/assets/6b6b4b3f-8669-4f06-a81a-368afeec59a1)
+
 
 
 Respuesta cambiando el padding al desencriptar:
 
 
-<img width="734" alt="image" src="https://gist.github.com/user-attachments/assets/189b6f41-e2b6-47f9-befd-3a0066771033">
+![image](https://github.com/user-attachments/assets/59f2d669-e574-4e0f-a974-231020f73cb9)
+
 
 
 ## main2.py (Desencriptación con la llave privada de ustedes )
 
 En este caso solo tengo el texto a desencriptar e intento con los 2 padding y no funciona.
 
-<img width="787" alt="image" src="https://gist.github.com/user-attachments/assets/c0e06c21-61f0-4ee6-a8b5-40f809bb9ca1">
+![image](https://github.com/user-attachments/assets/39b45433-692e-450b-9885-dd3f0b3f1112)
+
 
 #### Respuesta:
 
-<img width="508" alt="image" src="https://gist.github.com/user-attachments/assets/e21de614-d3a2-445f-af2c-eff2527b769c">
+![image](https://github.com/user-attachments/assets/8eaf8918-5335-47b0-bcad-f1f60bbb20a4)
+
 
 
 
