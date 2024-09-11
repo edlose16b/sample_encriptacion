@@ -73,7 +73,8 @@ En este caso solo tengo el texto a desencriptar e intento con los 2 padding y no
 
 #### Respuesta:
 
-![image](https://github.com/user-attachments/assets/8eaf8918-5335-47b0-bcad-f1f60bbb20a4)
+![image](https://github.com/user-attachments/assets/1d748653-149c-4ee9-8e5e-6594cf912a29)
+
 
 
 
